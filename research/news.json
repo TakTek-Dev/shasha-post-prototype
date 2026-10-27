@@ -1,0 +1,1365 @@
+{
+  "generated": "2026-10-27",
+  "weather_source": {
+    "name": "Open-Meteo forecast API (model data), consistent with the Palestinian Meteorological Department outlook carried by Shasha",
+    "url": "https://api.open-meteo.com/v1/forecast",
+    "date": "2026-10-27",
+    "note": "Daily max/min for 27 Oct 2026, Asia/Jerusalem. Palestinian Met Dept (via Shasha): partly cloudy to cloudy, temperatures slightly below average, scattered showers and thunderstorms, especially east and south."
+  },
+  "weather": [
+    {
+      "city": "Jerusalem",
+      "hi": 22.5,
+      "lo": 17.8,
+      "sky": "Showers and thunderstorms"
+    },
+    {
+      "city": "Ramallah",
+      "hi": 22.0,
+      "lo": 17.0,
+      "sky": "Showers and thunderstorms"
+    },
+    {
+      "city": "Gaza",
+      "hi": 25.3,
+      "lo": 20.6,
+      "sky": "Showers and thunderstorms"
+    },
+    {
+      "city": "Nablus",
+      "hi": 24.6,
+      "lo": 18.5,
+      "sky": "Rain showers"
+    },
+    {
+      "city": "Hebron",
+      "hi": 20.8,
+      "lo": 16.5,
+      "sky": "Showers and thunderstorms"
+    }
+  ],
+  "rates": {
+    "USD": 3.08,
+    "EUR": 3.45,
+    "JOD": 4.35,
+    "base": "ILS (shekels per unit)",
+    "date": "2026-10-27",
+    "source": {
+      "name": "Shasha (Arabic)",
+      "url": "https://shasha.ps/home/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%AA-532"
+    }
+  },
+  "items": [
+    {
+      "id": "ramallah-entrances-sealed-new-checkpoints",
+      "section": "palestine",
+      "date": "2026-10-27",
+      "place": "Ramallah",
+      "headline": "Israeli forces close every entrance to Ramallah on election morning",
+      "standfirst": "Gates and checkpoints around Ramallah were shut from early Tuesday and new checkpoints went up on the side roads residents use to get around them, WAFA reported.",
+      "body": [
+        "Israeli forces closed all the entrances to Ramallah early on Tuesday, according to local sources quoted by the Palestinian news agency WAFA. The closures covered the Ein Sinya and Atara checkpoints, the Rawabi gate to the north and the Nabi Saleh and Aboud gates to the north-west.",
+        "Troops also set up new checkpoints on the alternative routes Palestinians rely on when the main roads are shut, WAFA said, including one near the education directorate on the al-Bireh to al-Jalazone road and another on the road between Yabrud and Silwad.",
+        "The closure came on the day Israelis voted in a general election and followed a week of sweeping restrictions across the occupied West Bank after a deadly attack near Hebron on Friday. A UN spokesman said on Friday it was the fourth time in a month that Israel had imposed restrictions across the territory.",
+        "WAFA did not report any arrests or injuries linked to the Ramallah closures, and there was no Israeli statement explaining them."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176367",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168660",
+          "date": "2026-10-23"
+        }
+      ],
+      "kind": "news",
+      "live": true
+    },
+    {
+      "id": "umm-safa-cars-torched-slogans",
+      "section": "palestine",
+      "date": "2026-10-27",
+      "place": "Umm Safa, north-west of Ramallah",
+      "headline": "Settlers burn three cars and spray slogans in Umm Safa overnight",
+      "standfirst": "The head of the Umm Safa village council said settlers entered the western neighbourhood after midnight, set three vehicles alight and daubed racist slogans on walls.",
+      "body": [
+        "Israeli settlers set fire to three vehicles in the village of Umm Safa, north-west of Ramallah, in the early hours of Tuesday, according to Marwan al-Sabbah, head of the village council, speaking to WAFA.",
+        "Al-Sabbah said the group entered the village's western neighbourhood after midnight and wrote racist slogans on several retaining walls before leaving. No injuries were reported.",
+        "The attack is one of a series recorded across the Ramallah area during the olive harvest. The UN's humanitarian office, OCHA, says settler attacks causing casualties or damage in 2026 have already passed 2,000, the highest number on record."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176368",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168672",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "farun-families-evicted-homes-outposts",
+      "section": "palestine",
+      "date": "2026-10-27",
+      "place": "Far'un, south of Tulkarem",
+      "headline": "Two families ordered out of their homes in Far'un as troops take them over",
+      "standfirst": "Israeli forces turned two houses south of Tulkarem into military posts and told the families they could not return until Wednesday morning, local sources told WAFA.",
+      "body": [
+        "Israeli forces raided the homes of Abdul Fattah Hussein Awad and his son Sameh in the village of Far'un, south of Tulkarem, on Tuesday and ordered both families to leave, local sources told WAFA.",
+        "The families were told they would not be allowed back until Wednesday morning, after the houses had been converted into temporary military posts. Troops were also deployed near the separation wall, between homes and close to the village girls' school.",
+        "In the nearby suburb of Irtah, soldiers patrolled the streets, took up positions on Old Mosque Street and warned residents away from the areas where they were stationed, according to the same sources. No arrests or injuries were reported."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176378",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "youth-shot-near-huwara-checkpoint",
+      "section": "palestine",
+      "date": "2026-10-27",
+      "place": "Huwara, south of Nablus",
+      "headline": "Palestinian youth shot in the foot near Huwara checkpoint",
+      "standfirst": "Red Crescent medics said Israeli forces at first kept their crews from reaching the wounded young man south of Nablus before letting them through.",
+      "body": [
+        "A young Palestinian man was shot in the foot with live ammunition near the Huwara military checkpoint, south of Nablus, on Tuesday, WAFA reported.",
+        "Imad Ahmad, who heads the Palestine Red Crescent's ambulance centre in Nablus, said Israeli forces initially prevented paramedics from reaching him before allowing them access. The crew was taking him to hospital for treatment.",
+        "The young man's name and condition were not released. There was no immediate comment from the Israeli army."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176377",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "birzeit-conference-delegation-denied-entry",
+      "section": "palestine",
+      "date": "2026-10-27",
+      "place": "Allenby Crossing and Birzeit",
+      "headline": "Israel turns back 23-member delegation heading to Birzeit conference",
+      "standfirst": "British and Spanish lawmakers were among those held for hours at the Allenby Crossing and then refused entry to the West Bank, Birzeit University said.",
+      "body": [
+        "Israeli authorities refused entry on Tuesday to an international delegation of parliamentarians, politicians and academics travelling to a conference at Birzeit University, according to the university and the organisers.",
+        "Birzeit said the group numbered 23 people from several countries. WAFA named among them British Labour MP Clive Lewis, former MP Sam Tarry, Scottish Green MSP Kate Nevens and Spanish senator Josu Estarrona Elizondo. The organisers said members were questioned for several hours at the Allenby Crossing from Jordan before being turned away.",
+        "The conference, organised by the university's Ibrahim Abu-Lughod Institute of International Studies under the title \"Global South Solidarity and Resistance to Imperialism\", opened the same day. The visitors had also planned to join farmers in the olive harvest.",
+        "The university said Palestinian institutions must be able to keep working with international colleagues. Israeli authorities did not give a public reason for the refusal."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176374",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "girl-dies-of-wounds-al-mawasi",
+      "section": "palestine",
+      "date": "2026-10-27",
+      "place": "Al-Mawasi, Khan Younis, Gaza",
+      "headline": "Six-year-old girl dies of gunshot wounds in al-Mawasi",
+      "standfirst": "Tihani Shalalfeh was shot by Israeli forces in the coastal area west of Khan Younis and died on Tuesday morning, WAFA reported, as firing continued in central and southern Gaza.",
+      "body": [
+        "A six-year-old girl, Tihani Mohammad Saeed Shalalfeh, died on Tuesday morning of wounds from Israeli gunfire in the al-Mawasi area of Khan Younis, in the southern Gaza Strip, WAFA reported.",
+        "The agency also reported a tank shell fired north of al-Bureij camp, gunfire from military vehicles towards the eastern edge of al-Maghazi camp, and heavy firing in the al-Alam and al-Shakoush areas west of Rafah.",
+        "A UN-mandated inquiry said this week that at least 196 Palestinians, including 32 boys and 11 girls, have been killed by Israeli fire along the advancing front line since the October 2025 ceasefire. The Israeli military says it fires at people who approach the so-called Yellow Line and pose a threat."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176376",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/un-sponsored-probe-accuses-israel-of-ongoing-gaza-genocide-west-bank-crimes-against-humanity/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "hebron-displaced-pass-3000-turk-warns",
+      "section": "palestine",
+      "date": "2026-10-26",
+      "place": "Hebron",
+      "headline": "Hebron displacement passes 3,000 as UN rights chief warns of collective punishment",
+      "standfirst": "Volker Türk called for everyone forced from the Jalda and Ein Deir Baha neighbourhoods to be allowed home, as Palestinian figures put the number displaced near 4,000.",
+      "body": [
+        "More than 3,000 Palestinians had been forced from their homes in Hebron by Monday, the eve of Israel's election, according to the UN's humanitarian office, OCHA, which said aid partners were helping local authorities support them.",
+        "UN human rights chief Volker Türk said the operation, launched after an attack on an army checkpoint on Friday, had destroyed homes and shops and confined many residents to their immediate neighbourhoods. He urged Israel to let all the displaced return and to compensate them for unlawful evictions and demolitions.",
+        "WAFA, citing local figures, put the toll after five days of closure of the al-Jalda and Ein Deir Baha areas at 619 families affected, about 3,971 people displaced and 85 arrested. US-based rights groups quoted by the agency said more than 2,000 people had been driven out and hundreds of buildings marked for demolition.",
+        "Israel says the operation targets militants and weapons. The army has not published its own figures for displacement."
+      ],
+      "quote": {
+        "text": "Collective punishment is a grave violation of international law.",
+        "who": "Volker Türk, UN High Commissioner for Human Rights"
+      },
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168672",
+          "date": "2026-10-26"
+        },
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176373",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176375",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "hebron-operation-begins-after-checkpoint-attack",
+      "section": "palestine",
+      "date": "2026-10-24",
+      "place": "Hebron",
+      "headline": "About 1,200 forced from homes as Israel launches Hebron operation",
+      "standfirst": "The army began house searches and demolitions in two Hebron neighbourhoods after gunmen killed two soldiers at a checkpoint; the PA called it collective punishment.",
+      "body": [
+        "Israeli forces forced around 1,200 Palestinians out of their homes in Hebron on Saturday as a large-scale operation got under way in the al-Jaladah and Ein Deir Baha neighbourhoods, according to a Palestinian official quoted by Reuters.",
+        "The operation followed a shooting on Friday at a checkpoint at the city's entrance in which two Israeli soldiers were killed and others wounded. The army said both gunmen were shot dead. Prime Minister Benjamin Netanyahu ordered the city sealed and promised house-to-house raids and demolitions, the UN said.",
+        "Hebron's mayor, Yousef al-Jabari, said shops, workshops, homes and roads had been demolished and that about 1,300 more people risked losing their homes. He accused the government of using the operation to court settler votes before Tuesday's election. The Ibrahimi Mosque was closed to Friday worshippers.",
+        "UN Secretary-General António Guterres said he was alarmed by the closures, which his spokesman said severely restrict movement and access to services."
+      ],
+      "quote": {
+        "text": "We are calling on officials to stand by us because we are not involved in any of this.",
+        "who": "Majdi Nasser, Hebron resident forced from his home"
+      },
+      "sources": [
+        {
+          "name": "Reuters via Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/10/around-1200-palestinians-are-displaced-hebron-israel-begins-military-operation",
+          "date": "2026-10-24"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168660",
+          "date": "2026-10-23"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "shujaiyya-tent-camp-burned-800-displaced",
+      "section": "palestine",
+      "date": "2026-10-26",
+      "place": "Shuja'iyya, east of Gaza City",
+      "headline": "Fire destroys tent camp near Shuja'iyya junction, displacing over 800",
+      "standfirst": "WAFA said Israeli drones set the camp alight overnight; the UN separately reported arson attacks on families' tents along the Yellow Line in the same area.",
+      "body": [
+        "A displacement camp near the Shuja'iyya junction, east of Gaza City, was burned down overnight on Sunday, leaving more than 800 people, from over 200 families, without shelter, WAFA reported. The agency said Israeli quadcopter drones set the tents alight.",
+        "The UN humanitarian office, OCHA, separately reported arson attacks against Palestinian families along the Yellow Line, including tents set on fire in Shuja'iyya on Sunday night that left at least nine households homeless. It said an earlier fire in the area had displaced about 200 families.",
+        "Human rights advocates quoted by WAFA called for tents and alternative shelter for the families. There was no Israeli comment on the incident."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176358",
+          "date": "2026-10-26"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168672",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "ben-gvir-al-aqsa-visit-condemned",
+      "section": "palestine",
+      "date": "2026-10-26",
+      "place": "Al-Aqsa Mosque, Jerusalem",
+      "headline": "Qatar and Egypt condemn Ben-Gvir's entry to Al-Aqsa compound",
+      "standfirst": "The two governments said the visit by Israel's national security minister, escorted by police and joined by hundreds of settlers, breached the status quo at the holy site.",
+      "body": [
+        "Qatar and Egypt on Monday condemned a visit to the Al-Aqsa Mosque compound in occupied East Jerusalem by Israel's National Security Minister Itamar Ben-Gvir, who was escorted by Israeli police.",
+        "Egypt's Foreign Ministry said Ben-Gvir was accompanied by hundreds of settlers and called the visit a serious violation of the historical and legal status quo at the site. It rejected any attempt to divide the compound by time or space.",
+        "Qatar's Foreign Ministry said the act offended Muslims worldwide and warned that repeated provocations risk fuelling a new cycle of violence. Both governments called on the international community to act. The visit came on the eve of the Israeli election, in which Ben-Gvir leads the Otzma Yehudit list."
+      ],
+      "quote": {
+        "text": "the blessed Al Aqsa Mosque is a place of worship exclusively for Muslims",
+        "who": "Qatar's Ministry of Foreign Affairs"
+      },
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176365",
+          "date": "2026-10-26"
+        },
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176364",
+          "date": "2026-10-26"
+        },
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/israel-goes-to-the-polls-a-guide-to-the-election-and-the-battle-to-form-a-government/",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "beit-kahil-harvesters-attacked-482-incidents",
+      "section": "palestine",
+      "date": "2026-10-26",
+      "place": "Beit Kahil, north-west of Hebron",
+      "headline": "Settlers attack olive pickers in Beit Kahil as harvest incidents pass 480",
+      "standfirst": "A Palestinian commission says it has recorded 482 attacks on the olive harvest in nine West Bank governorates since picking began this month.",
+      "body": [
+        "Settlers backed by Israeli troops attacked olive harvesters in Beit Kahil, north-west of Hebron, on Monday, trying to assault farmer Ahmad Salman al-Atawneh, his son and three grandchildren, WAFA reported. Settlers also planted Israeli flags on land in the nearby Wadi al-Quf area.",
+        "The Colonization and Wall Resistance Commission said it had documented 482 attacks on the harvest by Sunday, across nine governorates. They included assaults, farmers being driven off their land and the theft of crops and equipment, it said.",
+        "The commission warned that attacks near settlements and outposts were stopping families from picking their own trees, at a time when army closures already limit access to farmland."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176351",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "un-ominous-start-olive-harvest",
+      "section": "palestine",
+      "date": "2026-10-21",
+      "place": "Occupied West Bank",
+      "headline": "UN warns of 'ominous start' to the West Bank olive harvest",
+      "standfirst": "OCHA counted at least 160 harvest-related settler attacks in the first two weeks of October, while movement restrictions keep thousands of farmers from their trees.",
+      "body": [
+        "The UN recorded at least 160 Israeli settler attacks linked to the olive harvest in the first two weeks of October, many carried out under the protection of, or with the participation of, Israeli forces, its humanitarian office said.",
+        "Settlers used live ammunition, started fires, cut down old trees and stole picked olives and equipment, according to the UN. A Washington Post photojournalist was assaulted while covering the harvest near Ramallah, and European diplomats were attacked the following day.",
+        "The Palestinian Ministry of Agriculture estimates losses of $157 million since October 2023 and says 90 per cent of Gaza's two million olive trees have been destroyed. In the West Bank, 286,000 trees were damaged between 2023 and September 2026.",
+        "The UN human rights office urged governments to go beyond condemnation, calling for a stronger diplomatic presence in at-risk communities and funding for legal aid and protective presence."
+      ],
+      "quote": {
+        "text": "This is yet another tool of displacement and dispossession",
+        "who": "Ajith Sunghay, head of the UN human rights office in the occupied Palestinian territory"
+      },
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168644",
+          "date": "2026-10-21"
+        }
+      ],
+      "kind": "analysis",
+      "live": false
+    },
+    {
+      "id": "wfp-cuts-gaza-food-aid",
+      "section": "palestine",
+      "date": "2026-10-19",
+      "place": "Gaza Strip",
+      "headline": "WFP cuts Gaza food aid by a third, leaving 500,000 without support",
+      "standfirst": "The World Food Programme says funding for its Palestine operations is under half of past years and it needs $450 million to keep going through March.",
+      "body": [
+        "The World Food Programme said on Monday it had cut food assistance in Gaza by about a third, affecting some 500,000 people as winter approaches. It is now supporting 1.1 million people a month, down from 1.6 million in September.",
+        "Families will receive one food parcel instead of two and a smaller bag of flour. Daily hot meals will fall from 250,000 to 150,000, and in hard-to-reach areas near the Yellow Line meals will be delivered every other day, the agency said.",
+        "WFP said hunger had eased since the October 2025 ceasefire, with about 67 per cent of Gazans now facing crisis-level food insecurity or worse, down from 77 per cent at the end of 2025. It warned the improvement could quickly reverse. In the West Bank, the number of people it helps was halved to 200,000 in September."
+      ],
+      "quote": {
+        "text": "these gains remain fragile and could quickly be reversed if humanitarian funding continues to decline.",
+        "who": "World Food Programme"
+      },
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168622",
+          "date": "2026-10-19"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "plo-rejects-unrwa-staff-layoffs",
+      "section": "palestine",
+      "date": "2026-10-25",
+      "place": "Ramallah",
+      "headline": "PLO rejects UNRWA layoff plan and seeks $70m to pay staff",
+      "standfirst": "The PLO Executive Committee says mass job cuts would not fix the agency's finances and asked donors for urgent money to cover November and December salaries.",
+      "body": [
+        "The PLO Executive Committee on Sunday rejected plans by the UN agency for Palestine refugees, UNRWA, to lay off large numbers of staff, warning that the cuts would weaken schools, clinics and relief services for millions of refugees.",
+        "Meeting in Ramallah, the committee called for about $70 million in urgent funding to meet immediate needs and pay salaries for November and December, and for donors to commit to predictable long-term support. It urged the agency's acting commissioner-general to suspend the layoff plan and tour donor countries.",
+        "The committee also proposed a joint body of host countries and PLO officials to lead a fundraising campaign, and asked UNRWA's management to negotiate with local staff unions rather than act unilaterally."
+      ],
+      "quote": {
+        "text": "UNRWA employees are the backbone of the agency.",
+        "who": "PLO Executive Committee"
+      },
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176285",
+          "date": "2026-10-25"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "seventy-detained-west-bank-since-friday",
+      "section": "palestine",
+      "date": "2026-10-24",
+      "place": "Occupied West Bank",
+      "headline": "About 70 Palestinians detained across the West Bank since Friday, PPS says",
+      "standfirst": "The Palestinian Prisoners' Society said most of those held were former prisoners, and that hundreds more had been interrogated in the field during raids.",
+      "body": [
+        "Israeli forces detained about 70 Palestinians across the occupied West Bank between Friday and early Saturday, according to the Palestinian Prisoners' Society, as the army launched its operation in Hebron. Some have since been released.",
+        "The society said most of those detained were former prisoners, some freed in prisoner exchange deals, and that hundreds of other people were questioned in the field. Detentions were recorded in Qalqilya, Jenin, Nablus, Jericho, Salfit, Tubas, Bethlehem, Tulkarem and Jerusalem, and the home of released prisoner Nael Barghouti in Kobar was raided.",
+        "People released told the society they had been beaten, bound and blindfolded and warned against political activity. The group says more than 26,000 arrests have been recorded in the West Bank since the start of the war in Gaza. There was no Israeli comment on the arrests."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176228",
+          "date": "2026-10-24"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "palestinian-trade-deficit-widens-17-percent",
+      "section": "palestine",
+      "date": "2026-10-22",
+      "place": "Ramallah",
+      "headline": "Palestinian goods trade deficit widens 17% in August",
+      "standfirst": "Statistics bureau figures show exports to Israel rising while exports to the rest of the world almost halved, deepening dependence on a single market.",
+      "body": [
+        "The Palestinian trade deficit in registered goods rose 17 per cent in August from a year earlier, to $559.6 million, the Palestinian Central Bureau of Statistics said.",
+        "Imports of goods increased 19 per cent to $776.6 million, with 62 per cent coming from Israel. Exports to Israel grew 29 per cent and accounted for 96 per cent of all exports, while exports to other countries fell 46 per cent.",
+        "The figures underline how heavily the Palestinian economy depends on trade with Israel, at a time when the Palestinian Authority says Israel is withholding about $7 billion in clearance revenues it collects on its behalf."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176165",
+          "date": "2026-10-22"
+        },
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176349",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "ebrd-eu-green-finance-facility",
+      "section": "palestine",
+      "date": "2026-10-22",
+      "place": "West Bank",
+      "headline": "EBRD and EU open €25.9m green finance line for Palestinian firms and homes",
+      "standfirst": "Loans through local banks will fund solar, efficiency and waste projects, with EU grants covering up to a quarter of eligible investments.",
+      "body": [
+        "The European Bank for Reconstruction and Development and the European Union have launched a Green Economy Financing Facility for the Palestinian economy, with €25.9 million in EBRD funding channelled through local financial institutions.",
+        "Households and businesses can receive EU-funded incentives of up to 25 per cent for verified investments in renewable energy, energy and resource efficiency, green buildings, the circular economy and waste management. The programme also aims to widen access for women and women-led businesses.",
+        "The EBRD said investments made so far are expected to save 12,656 MWh of energy and avoid 3,717 tonnes of CO2 a year. The bank has approved 42 projects worth €225 million in the West Bank and Gaza since 2017."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "EBRD",
+          "url": "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-and-eu-launch-palestinian-green-financing-facility.html",
+          "date": "2026-10-22"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "gaza-families-cannot-afford-generator-power",
+      "section": "palestine",
+      "date": "2026-10-26",
+      "place": "Nuseirat camp, central Gaza",
+      "headline": "In Gaza's tents, a kilowatt-hour now costs ten times its pre-war price",
+      "standfirst": "With the grid destroyed, private generators sell electricity at around 30 shekels per kilowatt-hour, and families who cannot pay are going without light.",
+      "body": [
+        "Private generators have become the main source of power for most people in Gaza, where the electricity grid is in ruins, and many displaced families can no longer afford them, Mondoweiss reports from Nuseirat camp and central Gaza.",
+        "Power now costs about 30 shekels (roughly $9.80) per kilowatt-hour, against 3 to 4 shekels before the war. Local authorities capped prices at 29 shekels on 12 October, but one provider said she could not lower hers because fuel, engine oil and spare parts are restricted from entering the Strip.",
+        "Gaza's government media office puts losses to the power sector at $1.4 billion, with about 5,080 kilometres of lines and 2,285 transformers destroyed. An economist quoted in the piece said high power prices have raised small firms' production costs by 10 to 15 per cent."
+      ],
+      "quote": {
+        "text": "I need to use the light all night, so I can prepare milk and dinner for my daughter,",
+        "who": "Aseel Ayesh, 24, living in a tent in Nuseirat camp"
+      },
+      "sources": [
+        {
+          "name": "Mondoweiss",
+          "url": "https://mondoweiss.net/2026/10/gazas-displaced-families-are-struggling-to-keep-the-lights-on/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "feature",
+      "live": false
+    },
+    {
+      "id": "israel-votes-26th-knesset-election",
+      "section": "region",
+      "date": "2026-10-27",
+      "place": "Jerusalem and across Israel",
+      "headline": "Israelis vote in a close election for the 26th Knesset",
+      "standfirst": "Polls show Netanyahu's bloc and the opposition both short of 61 seats; turnout at 10am was the highest for that hour since 1981. Exit polls are due at 10pm.",
+      "body": [
+        "Polls opened at 7am on Tuesday for the election of all 120 members of the 26th Knesset. About 7.3 million people are eligible to vote at more than 12,000 polling stations, and 36 lists are on the ballot, according to figures from the Central Elections Committee carried by Shasha.",
+        "Turnout reached 16.7 per cent by 10am, with about 1.2 million votes cast, the highest at that hour since 1981, the Times of Israel reported. Several parties, including Gadi Eisenkot's Yashar and Avigdor Liberman's Yisrael Beytenu, filed complaints about missing or defaced ballot slips.",
+        "Final polls gave Benjamin Netanyahu's bloc 50 to 51 seats against 52 to 56 for the four Jewish-led opposition parties, with the Arab-led Ra'am and Joint List projected at 14 to 16 combined. Lists need 3.25 per cent of the vote to enter parliament.",
+        "Exit polls will be published when voting ends at 10pm. Official results are expected on 4 November, after which President Isaac Herzog will consult party leaders before asking a candidate to form a government."
+      ],
+      "quote": {
+        "text": "Netanyahu could once again emerge victorious even if his opponents collectively win more votes",
+        "who": "Ariela Karmel, political correspondent, The Times of Israel"
+      },
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/israel-goes-to-the-polls-a-guide-to-the-election-and-the-battle-to-form-a-government/",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-october-27-2026/",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Shasha (Arabic)",
+          "url": "https://shasha.ps/home/%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%86%D9%8A%D8%B3%D8%AA",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": true
+    },
+    {
+      "id": "likud-prepares-fraud-claims-arab-polls",
+      "section": "region",
+      "date": "2026-10-27",
+      "place": "Israel",
+      "headline": "Likud readies fraud complaints over Arab polling stations, reports say",
+      "standfirst": "Hebrew media say party activists discussed a 'stolen election' campaign if Netanyahu loses; the elections committee says there is no evidence of widespread fraud.",
+      "body": [
+        "Likud began preparing challenges to results from polling stations in Arab towns before voting opened on Tuesday, according to Channel 12 and Haaretz reports summarised by the Times of Israel.",
+        "Haaretz reported that party operatives discussed claiming the election had been stolen if Benjamin Netanyahu did not win, and that Netanyahu was considering the option, though not involved in the talks. Several thousand activists were reportedly sent to monitor polling sites in Arab-majority areas, a plan civil rights groups have criticised as intimidation.",
+        "Dean Livne, director general of the Central Elections Committee, said there was no evidence of widespread fraud in Israeli elections and that existing safeguards were sufficient. The Movement for Quality Government opened a hotline for voters to report violations."
+      ],
+      "quote": {
+        "text": "Unambiguous opinions were expressed in favor of a 'the elections were stolen and rigged' campaign",
+        "who": "Unnamed source close to Netanyahu, quoted by Haaretz"
+      },
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/likud-said-already-preparing-to-allege-election-was-stolen-if-netanyahu-loses/",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "netanyahu-sought-iran-strike-before-vote",
+      "section": "region",
+      "date": "2026-10-26",
+      "place": "Jerusalem and Washington",
+      "headline": "Netanyahu pressed for Iran strike before the vote, but Trump said wait — CNN",
+      "standfirst": "US and Israeli sources told CNN that Washington asked Israel to delay any joint action; the prime minister's office called the report fake news.",
+      "body": [
+        "Benjamin Netanyahu lobbied the United States for about a week to back or join strikes on Iran before Israel's election, but the Trump administration asked Israel to hold off until Washington was ready, CNN reported, citing two US officials and an Israeli security source.",
+        "According to the report, US forces have large-scale strike options prepared and could act within days of an order. One reason Trump did not agree to immediate action, CNN's Israeli source said, was a warning from army chief Eyal Zamir that an attack could force the election to be postponed.",
+        "The prime minister's office dismissed the report as fake news, and Defence Minister Israel Katz said Israel had no intention of attacking Iran before the vote. Opposition leader Avigdor Liberman asked the attorney general to open a criminal investigation. Saudi, Pakistani and Turkish delegations were in Tehran the same day for talks aimed at avoiding renewed war."
+      ],
+      "quote": {
+        "text": "Trump did not give a green light.",
+        "who": "Israeli security source, quoted by CNN"
+      },
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/netanyahu-pushed-for-iran-strike-before-election-but-trump-refused-cnn-says/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "jordan-strikes-syria-after-karak-attack",
+      "section": "region",
+      "date": "2026-10-27",
+      "place": "Amman, Jordan",
+      "headline": "Jordan strikes armed groups in Syria over Karak church attack",
+      "standfirst": "Jordan's air force said it hit groups linked to Friday's deadly attack; Syria said seven civilians, including three children, were killed in Daraa and Sweida.",
+      "body": [
+        "Jordan's air force carried out strikes on Monday night against armed groups in Syria that it said were tied to Friday's attack on a Greek Orthodox church in Karak, which killed nine people. The military said many fighters were killed or wounded but did not name the groups or the locations.",
+        "Syria's civil defence said it recovered seven bodies from strikes in Daraa and Sweida provinces, including five members of one family killed in a tent in rural Daraa. Damascus said Jordan had acted without coordinating with it and closed its main border crossing with Jordan.",
+        "Jordanian police arrested three Jordanian men, two brothers and their brother-in-law, after a dawn shootout on Monday, and said the attackers were extremists not linked to any organised group. King Abdullah II ordered an iron-fist response."
+      ],
+      "quote": {
+        "text": "no proponent of dark ideologies that divide Jordanians will be tolerated",
+        "who": "King Abdullah II of Jordan"
+      },
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/jordan-strikes-armed-groups-in-syria-it-says-tied-to-church-attack-damascus-civilians-killed/",
+          "date": "2026-10-27"
+        },
+        {
+          "name": "Shasha (Arabic)",
+          "url": "https://shasha.ps/home/%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D9%88%D8%A7%D9%82%D8%B9-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D8%A9",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "jerusalem-patriarchate-condemns-karak-church-attack",
+      "section": "region",
+      "date": "2026-10-23",
+      "place": "Karak, Jordan",
+      "headline": "Jerusalem Patriarchate condemns deadly attack on Karak church",
+      "standfirst": "Gunmen opened fire during a funeral at St George's Greek Orthodox Church in Karak; the Patriarchate said Jordan's Christians would stay in their homeland.",
+      "body": [
+        "The Greek Orthodox Patriarchate of Jerusalem condemned Friday's attack on the Church of St George in the Hamoud area of Karak, southern Jordan, calling it a cowardly act that struck its own community.",
+        "Gunmen attacked the church during a funeral, about 90 kilometres south of Amman. Early figures cited by the Patriarchate gave seven dead and 34 wounded; Jordanian authorities later put the death toll at nine. Jordan declared three days of mourning.",
+        "Patriarch Theophilos III and the Holy Synod said the attack would strengthen, not weaken, ties between Christians and Muslims, and expressed confidence that Jordan's security services would bring those responsible to justice."
+      ],
+      "quote": {
+        "text": "We shall remain here as witnesses to the faith, regardless of how great the challenges or how severe the trials may be.",
+        "who": "Greek Orthodox Patriarchate of Jerusalem"
+      },
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176208",
+          "date": "2026-10-23"
+        },
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/jordan-strikes-armed-groups-in-syria-it-says-tied-to-church-attack-damascus-civilians-killed/",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "hezbollah-rearming-lebanese-sources-say",
+      "section": "region",
+      "date": "2026-10-26",
+      "place": "Beirut, Lebanon",
+      "headline": "Hezbollah rearming with Iranian cash for possible new war, sources say",
+      "standfirst": "Lebanese security sources told Reuters the group has used the lull since June to rebuild its drone and explosives capacity, though it is not yet fully prepared.",
+      "body": [
+        "Hezbollah has spent the past three months preparing for a possible return to war with Israel, helped by tens of millions of dollars from Iran, Lebanese security sources told Reuters.",
+        "Two sources said the group had used the lull in fighting since June to rearm, focusing on explosives and attack drones, and was rebuilding command structures that broke down in battles around Bint Jbeil. Hezbollah's media office rejected the account of a breakdown and said Israel's presence in southern Lebanon gave it a right to resist.",
+        "The sources said Hezbollah had not yet fully rebuilt its stockpiles or forces. Israel's military declined to comment; a US State Department spokesman said Washington would keep squeezing the group's finances. Israel continues to occupy a security zone in southern Lebanon."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/hezbollah-rearming-for-possible-renewed-conflict-with-israel-lebanese-sources-say/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "analysis",
+      "live": false
+    },
+    {
+      "id": "mecca-pact-talks-tehran-houthi-attacks",
+      "section": "region",
+      "date": "2026-10-26",
+      "place": "Tehran, Iran and Riyadh, Saudi Arabia",
+      "headline": "Mecca pact states meet in Tehran as Saudi Arabia downs more Houthi drones",
+      "standfirst": "Iran held talks with Saudi Arabia, Pakistan and Turkey on regional security while the Houthis claimed attacks on Saudi oil stations and Riyadh airport.",
+      "body": [
+        "Iran began talks on Monday with Saudi Arabia, Pakistan and Turkey, the other members of the Mecca security pact, on regional security, Iranian state television said. The four agreed to keep talking. Saudi Defence Minister Prince Khalid bin Salman was pictured with President Masoud Pezeshkian.",
+        "The same day Saudi Arabia intercepted three drones over Riyadh and its southern region, The National reported. Yemen's Houthis said they had targeted Saudi oil pumping stations and Riyadh airport; those claims were not independently confirmed.",
+        "Egypt's parliament approved military support for Saudi Arabia, and President Abdel Fattah El Sisi pledged to defend the kingdom. Several sports and business events in Saudi Arabia have been postponed in recent weeks because of the attacks."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/mena/2026/10/26/live-saudi-arabia-egypt-defence-support/",
+          "date": "2026-10-26"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/sport/2026/10/26/asian-cup-2027-to-go-ahead-as-planned-in-saudi-arabia/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "abbas-meets-iraqi-pm-in-amman",
+      "section": "region",
+      "date": "2026-10-26",
+      "place": "Amman, Jordan",
+      "headline": "Abbas meets new Iraqi prime minister in Amman",
+      "standfirst": "The Palestinian president briefed Ali al-Zaidi on Gaza and the West Bank and on the PA's financial crisis, which he blamed on $7bn in withheld revenues.",
+      "body": [
+        "Palestinian President Mahmoud Abbas met Iraqi Prime Minister Ali al-Zaidi and his delegation in Amman on Monday, congratulating him on taking office and thanking Iraq for its aid, its support for UNRWA and for treating wounded Palestinians from Gaza, WAFA reported.",
+        "Abbas briefed al-Zaidi on the humanitarian situation in Gaza and on Israeli military operations in the West Bank, and said the Palestinian Authority faces a severe financial squeeze because Israel is withholding about $7 billion in clearance revenues.",
+        "The two sides agreed to revive a joint Palestinian-Iraqi committee on political, economic and educational ties. Palestinian Prime Minister Mohammad Mustafa and Iraqi Foreign Minister Fuad Hussein attended."
+      ],
+      "quote": {
+        "text": "Palestine is an integral part of Iraq's identity and national position.",
+        "who": "Ali al-Zaidi, Prime Minister of Iraq"
+      },
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176349",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "un-inquiry-says-gaza-genocide-continues",
+      "section": "world",
+      "date": "2026-10-26",
+      "place": "Geneva, Switzerland",
+      "headline": "UN inquiry says Israel is still committing genocide in Gaza despite ceasefire",
+      "standfirst": "The Commission of Inquiry also alleged crimes against humanity in the West Bank; Israel called the report a misinformation campaign and demanded the body be dissolved.",
+      "body": [
+        "A commission of inquiry set up by the UN Human Rights Council said on Monday that Israel is continuing to commit genocide in Gaza despite the October 2025 ceasefire, and accused Israeli soldiers and prison guards of crimes against humanity in the West Bank.",
+        "The three-member panel, chaired by Srinivasan Muralidhar, said Israeli forces had expanded their control of Gaza from 53 per cent of the territory to at least 60 per cent since the ceasefire, and that at least 196 Palestinians had been killed along the advancing front line. It also documented cases of sexual violence against detainees at Sde Teiman.",
+        "The report said 34,176 West Bank Palestinians remained displaced as of August, the largest displacement there since 1967, and criticised the Palestinian Authority for targeting critics and journalists.",
+        "Israel's mission in Geneva called the report a misinformation campaign and called for the commission to be dissolved. Israel rejects the genocide allegation and accuses the council of bias."
+      ],
+      "quote": {
+        "text": "continuing to commit genocidal acts with the genocidal intent to destroy, in whole or in part, the Palestinians in Gaza",
+        "who": "UN Independent International Commission of Inquiry, report of 26 October"
+      },
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/un-sponsored-probe-accuses-israel-of-ongoing-gaza-genocide-west-bank-crimes-against-humanity/",
+          "date": "2026-10-26"
+        },
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168672",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "sixty-meps-urge-eu-sanctions-israel",
+      "section": "world",
+      "date": "2026-10-27",
+      "place": "Brussels, Belgium",
+      "headline": "Sixty MEPs urge emergency EU meeting on sanctions against Israel",
+      "standfirst": "In a letter to Kaja Kallas, lawmakers from several groups called the West Bank blockade collective punishment and cited Hebron families given minutes to leave.",
+      "body": [
+        "Sixty members of the European Parliament from several political groups wrote to EU foreign policy chief Kaja Kallas on Monday evening asking her to convene an urgent meeting of foreign ministers to agree sanctions on the Israeli government, WAFA reported.",
+        "The lawmakers said the blockade imposed on the West Bank since Friday amounted to collective punishment and linked it to Israel's election. They cited demolitions in Hebron where, they said, some families were given no more than five minutes to leave.",
+        "They also asked the EU to condemn the measures and to call for Israeli forces to withdraw from the West Bank."
+      ],
+      "quote": {
+        "text": "a decisive turning point for the future of the West Bank and the viability of a Palestinian state",
+        "who": "Letter from 60 Members of the European Parliament"
+      },
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176373",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "lula-wins-fourth-term-brazil",
+      "section": "world",
+      "date": "2026-10-26",
+      "place": "Brasília, Brazil",
+      "headline": "Lula wins fourth term as Bolsonaro's party concedes",
+      "standfirst": "The leftist incumbent came from behind in the first round to beat Flavio Bolsonaro by about 4.4 million votes in Sunday's runoff.",
+      "body": [
+        "Brazil's President Luiz Inácio Lula da Silva won a fourth term in Sunday's runoff, beating right-wing senator Flavio Bolsonaro, son of former president Jair Bolsonaro, by about 4.4 million votes, AFP reported.",
+        "Bolsonaro's Liberal Party said on Monday it recognised the result certified by the Superior Electoral Court, although Flavio Bolsonaro had said he would seek to annul it after voting was extended by two hours at Lula's request because of transport problems.",
+        "US President Donald Trump called the vote rigged. Lula had trailed in the first round before overturning the deficit in the runoff, and abstention fell from 21 to 19 per cent."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/bolsonaros-party-concedes-brazil-election-loss-to-leftist-incumbent-lula/",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "albania-joins-gaza-stabilisation-force",
+      "section": "world",
+      "date": "2026-10-26",
+      "place": "Albania and Kosovo",
+      "headline": "Albania signs up to Gaza stabilisation force as deployment stalls",
+      "standfirst": "Albanian liaison officers are due in the region in November, and Kosovo says its bomb disposal team is ready, but no troops have yet deployed in Gaza.",
+      "body": [
+        "Albania has finalised its participation agreement with the International Stabilization Force for Gaza, signing it on Friday in the presence of the force's commander, US Maj. Gen. Jasper Jeffers, the Times of Israel reported. Albanian liaison officers are expected in the region in November.",
+        "Kosovo said its explosive ordnance disposal team was ready to deploy once the force could receive it. Morocco and Kazakhstan have also committed troops, and up to 500 Moroccan personnel have trained since late August, according to a Board of Peace official.",
+        "No operational deployment has yet taken place. The US-backed Board of Peace is still seeking Israeli approval for key elements, including a base near the Yellow Line, and the two sides disagree over the sequencing of Israeli withdrawals and Hamas's disarmament."
+      ],
+      "quote": {
+        "text": "Kosovo's EOD team is ready and will deploy once ISF is prepared to receive it.",
+        "who": "Kosovo Ministry of Defence"
+      },
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/albania-formalizes-role-in-gaza-force-kosovo-says-troops-ready-to-deploy-amid-delays/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "eu-weighs-blocking-statute-for-icc",
+      "section": "world",
+      "date": "2026-10-19",
+      "place": "Brussels, Belgium",
+      "headline": "EU weighs Blocking Statute to shield ICC from US sanctions",
+      "standfirst": "The European Commission says shielding court officials from Washington's measures remains an option, ten days after the US banned transactions with the court.",
+      "body": [
+        "The European Commission said on Monday that the EU is considering activating its Blocking Statute to protect the International Criminal Court from US sanctions, WAFA reported, citing the Spanish daily Demócrata and Anadolu Agency.",
+        "Commission spokesperson Siobhan McGarry said preparatory work was under way and that the EU was in contact with member states, but that no decision had been taken on whether or when to use the tool, which is designed to neutralise third-country sanctions inside the EU.",
+        "The United States announced the sanctions on 9 October. Secretary of State Marco Rubio called the Hague-based tribunal a rogue court. The ICC has issued arrest warrants for Israeli Prime Minister Benjamin Netanyahu and former defence minister Yoav Gallant, and last week a US federal judge temporarily blocked sanctions against two rights groups assisting its Israel investigation, Mondoweiss reported."
+      ],
+      "quote": {
+        "text": "The blocking statute still remains on the table.",
+        "who": "Siobhan McGarry, European Commission spokesperson"
+      },
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176080",
+          "date": "2026-10-19"
+        },
+        {
+          "name": "Mondoweiss",
+          "url": "https://mondoweiss.net/2026/10/power-pushback-judge-rejects-trump-sanctions-on-rights-groups-assisting-icc/",
+          "date": "2026-10-20"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "nyt-rejects-albanese-mediacide-report",
+      "section": "world",
+      "date": "2026-10-26",
+      "place": "New York, United States",
+      "headline": "New York Times rejects UN rapporteur's 'mediacide' report",
+      "standfirst": "Francesca Albanese accused major outlets of helping legitimise Israel's actions in Gaza; the Times said her report offers no proof of outside pressure.",
+      "body": [
+        "The New York Times on Monday rejected a report by UN Special Rapporteur Francesca Albanese that accused it and other major media of helping to legitimise Israel's actions in Gaza, calling her claims baseless and misleading, the Times of Israel reported.",
+        "Albanese's report, presented to the UN General Assembly, alleges what she called a mediacide: the killing of Palestinian journalists, Israeli restrictions on the press and biased coverage abroad. It criticises the Times for cautioning staff on use of the word genocide and for its coverage of so-called safe zones.",
+        "The paper said Albanese offered no evidence that Israeli officials or lobby groups shaped its editorial guidance, and pointed to its own investigations into sexual violence against Palestinians. The BBC, also criticised in the report, did not comment."
+      ],
+      "quote": {
+        "text": "no pressure campaigns or biased criticism will deter us from that work",
+        "who": "New York Times spokesperson"
+      },
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/offers-no-proof-new-york-times-rejects-mediacide-allegations-from-uns-albanese/",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "palestinians-drown-off-lesbos-and-samos",
+      "section": "world",
+      "date": "2026-10-21",
+      "place": "Lesbos and Samos, Greece",
+      "headline": "Five Palestinians drown in two boat incidents off Greek islands",
+      "standfirst": "The Greek coast guard recovered four bodies near Lesbos and one near Samos; the passengers were Palestinians who had set out from Lebanon and Syria.",
+      "body": [
+        "The Palestinian Foreign Ministry said on Wednesday that its embassies in Greece and Lebanon were following up two boat incidents off the Greek islands of Lesbos and Samos, in which Palestinians from Lebanon and Syria went missing.",
+        "Ambassador to Greece Yusuf Dargham said the Hellenic Coast Guard had confirmed recovering four bodies near Lesbos and one near Samos. The victims had not yet been identified.",
+        "The ministry said it was working with the families on death certificates and on returning the bodies to Lebanon and Syria, a process it warned would take time, and urged Palestinians not to attempt irregular migration."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/176156",
+          "date": "2026-10-21"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "macklemore-opens-free-palestine-tour-dublin",
+      "section": "culture",
+      "date": "2026-10-26",
+      "place": "Dublin, Ireland",
+      "headline": "Macklemore opens 'Free Palestine' tour in Dublin with Palestinian singer Lina Makhoul",
+      "standfirst": "The 13,000-seat 3Arena sold out in minutes for the first of three European dates, with Hozier, Kneecap and DJ Habibeats also on the bill.",
+      "body": [
+        "Macklemore opened his \"Free Palestine\" tour at Dublin's 3Arena on Monday, telling a sold-out crowd of 13,000 that he would keep speaking out against Israel's war in Gaza, Reuters reported.",
+        "The US rapper was dropped as Ed Sheeran's opening act after pro-Palestinian remarks at a stadium show in New Jersey. Sheeran said venue owners had threatened to bar further shows with Macklemore on the bill.",
+        "Palestinian singer Lina Makhoul and Palestinian American DJ Habibeats performed alongside Irish acts Hozier, Kneecap and Beoga, and actor Liam Cunningham spoke between sets. The tour moves to Paris and London this week, with US dates to be announced."
+      ],
+      "quote": {
+        "text": "We will continue to fight for collective liberation until our last breath,",
+        "who": "Macklemore, on stage in Dublin"
+      },
+      "sources": [
+        {
+          "name": "Reuters via WINCountry",
+          "url": "https://wincountry.com/2026/10/26/macklemore-vows-to-fight-until-last-breath-at-opening-of-free-palestine-tour/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "iyad-hajjaj-short-film-19-awards",
+      "section": "culture",
+      "date": "2026-10-27",
+      "place": "Southern California, United States",
+      "headline": "Gaza-born actor Iyad Hajjaj's short film reaches 19 awards",
+      "standfirst": "My Foot is in Heaven, about a Gaza father whose daughter's foot must be amputated without anaesthetic, was shot in southern California on a set built to look like Gaza.",
+      "body": [
+        "My Foot is in Heaven, a short film by Gaza-born actor and filmmaker Iyad Hajjaj, has now won 19 awards on the festival circuit, The New Arab reports.",
+        "Hajjaj plays a father whose daughter is badly injured in an Israeli airstrike and whose foot doctors can only amputate without anaesthetic. The film is inspired by real events and was shot in southern California, where he spent months building the set and costumes.",
+        "Hajjaj grew up in Rafah and has worked in Hollywood for decades, with credits including Ms. Marvel and Black Monday. He has screened the film in London and New York and in rural parts of the US, and it is due at the Egyptian American Film Festival on Staten Island."
+      ],
+      "quote": {
+        "text": "The story of a girl in Gaza could happen to anyone.",
+        "who": "Iyad Hajjaj, filmmaker"
+      },
+      "sources": [
+        {
+          "name": "The New Arab",
+          "url": "https://www.newarab.com/news/gazan-filmmaker-iyad-hajjajs-short-movie-war-wins-19th-award",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "feature",
+      "live": false
+    },
+    {
+      "id": "netherlands-pulls-out-of-eurovision-2027",
+      "section": "culture",
+      "date": "2026-10-27",
+      "place": "Hilversum, Netherlands",
+      "headline": "Netherlands reverses course and pulls out of Eurovision 2027 over Israel",
+      "standfirst": "Dutch public broadcaster NPO said the 'sensitivities' around Israel's participation had not gone away, a month after announcing a careful return.",
+      "body": [
+        "The Netherlands will not take part in the 2027 Eurovision Song Contest, public broadcaster NPO announced on Tuesday, reversing a decision made last month to return to the competition.",
+        "NPO said sensitivities over Israel's participation continued to cause public debate and division. The decision followed consultation with its board of broadcasters, the Times of Israel reported.",
+        "NPO chairman Jet de Ranitz acknowledged that many Dutch fans would be disappointed and said the contest would still be shown on Dutch public channels."
+      ],
+      "quote": {
+        "text": "We must conclude that it is currently too early to participate in the Eurovision Song Contest in 2027.",
+        "who": "Jet de Ranitz, executive chairman, NPO"
+      },
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/in-reversal-holland-pulls-out-of-eurovision-dutch-broadcaster-cites-sensitivities-over-israel/",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "boston-palestine-film-festival-closes-20th",
+      "section": "culture",
+      "date": "2026-10-25",
+      "place": "Brookline, Massachusetts, United States",
+      "headline": "Boston Palestine Film Festival closes its 20th edition with Palestine Comedy Club",
+      "standfirst": "Ten days of screenings across Boston ended at the Coolidge Corner Theatre with a documentary following six comedians touring a stand-up show across Palestine.",
+      "body": [
+        "The 20th Boston Palestine Film Festival closed on Sunday at the Coolidge Corner Theatre in Brookline with Palestine Comedy Club, a documentary by Alaa Aliabdallah about six Palestinian comedians taking a stand-up show on tour across Palestine.",
+        "The festival opened on 16 October at the Museum of Fine Arts with Edward Said: Between Worlds, Maiken Baird's portrait of the Palestinian-American scholar. Screenings were also held at the Brattle Theatre, MassArt and UMass Amherst.",
+        "The programme included Abdallah Al-Khatib's Chronicles from the Siege, Kamal Aljafari's With Hasan in Gaza, built from footage shot in 2001, and Alex Bakri's Habibi Hussein, about a projectionist in the West Bank."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "Boston Palestine Film Festival",
+          "url": "https://bostonpalestinefilmfest.org/festival/",
+          "date": "2026-10-25"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "imma-shows-gaza-eltiqa-collective",
+      "section": "culture",
+      "date": "2026-10-22",
+      "place": "Dublin, Ireland",
+      "headline": "Dublin's IMMA opens show of six Gaza artists, some works smuggled out",
+      "standfirst": "Eltiqa: How to Work Together? brings more than 60 works from 2002 to 2025 by the Gaza City collective to the Irish Museum of Modern Art, with free entry.",
+      "body": [
+        "The Irish Museum of Modern Art in Dublin has opened Eltiqa: How to Work Together?, an exhibition of more than 60 works by six artists from the Gaza City collective Eltiqa, Hot Press reported.",
+        "The artists are Mohamed Abusal, Abdel Raouf Al-Ajouri, Mohammed Al-Hawajri, Raed Issa, Dina Matar and Sohail Salem. Some of the works were carried out of Gaza by members of the collective, while others were smuggled out to preserve them.",
+        "Curated by The Question of Funding with Art Jameel, the show comes from the Jameel Arts Centre in Dubai and includes a timeline from 1948 to 2026. An outdoor film programme on the museum's Living Canvas begins on 29 October. Palestine's ambassador to Ireland, Jilan Wahba Abdalmajid, previewed the show."
+      ],
+      "quote": {
+        "text": "I hope this exhibition will amplify their voices and convey a powerful message of resilience and hope.",
+        "who": "Jilan Wahba Abdalmajid, Palestinian Ambassador to Ireland"
+      },
+      "sources": [
+        {
+          "name": "Hot Press",
+          "url": "https://www.hotpress.com/culture/exhibition-from-gaza-city-art-collective-opens-at-imma-23166094",
+          "date": "2026-10-22"
+        },
+        {
+          "name": "TheCity.ie",
+          "url": "https://thecity.ie/2026/10/13/artworks-smuggled-out-of-gaza-to-go-on-display-in-dublin/",
+          "date": "2026-10-13"
+        }
+      ],
+      "kind": "feature",
+      "live": false
+    },
+    {
+      "id": "palestine-to-open-asian-cup-saudi",
+      "section": "sport",
+      "date": "2026-10-26",
+      "place": "Riyadh, Saudi Arabia",
+      "headline": "Palestine to face hosts Saudi Arabia in Asian Cup opener",
+      "standfirst": "The AFC confirmed the 2027 tournament will go ahead as planned in Saudi Arabia from 7 January, despite postponements of other events over Houthi attacks.",
+      "body": [
+        "Palestine will play hosts Saudi Arabia in the opening match of the 2027 AFC Asian Cup at King Fahd Sports City Stadium in Riyadh on 7 January, after the Asian Football Confederation confirmed on Monday that the tournament will go ahead as planned.",
+        "The 24-team finals run until 5 February across eight stadiums in Riyadh, Jeddah and Al Khobar, with the final also in Riyadh. It is the first time Saudi Arabia has hosted the tournament.",
+        "The confirmation follows the postponement of several events in the kingdom because of Houthi attacks, including an Asian Champions League match in Riyadh and the Six Kings Slam tennis exhibition."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/sport/2026/10/26/asian-cup-2027-to-go-ahead-as-planned-in-saudi-arabia/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "mohammed-balah-gaza-striker-asian-cup",
+      "section": "sport",
+      "date": "2026-10-27",
+      "place": "Beirut, Lebanon",
+      "headline": "From a Rafah tent to the national team: Mohammed Balah's Asian Cup hopes",
+      "standfirst": "The 33-year-old striker, once called the 'Ronaldo of Gaza', returned to Palestine's squad in June after 2,495 days, the longest gap between caps in the team's history.",
+      "body": [
+        "Mohammed Balah was in Gaza recovering from a knee injury when the war began in October 2023. His family fled from Gaza City to Khan Younis and then to a tent in Rafah, and in April 2024 he paid $7,000 to cross into Egypt, Arab News reports. His pregnant wife could not follow, and he has seen his two-year-old son only on a phone screen.",
+        "After surgery and rehabilitation in Egypt he rebuilt his fitness, and he now plays for Al-Ahed in Lebanon after spells in Egypt, Jordan, Oman and Qatar. He returned to the national team against Kyrgyzstan in June 2026, 2,495 days after his previous cap.",
+        "The Palestine Football Association says 568 members of the football community have been killed in the war. Balah hopes to be in coach Ehab Abu Jazar's squad for the Asian Cup in Saudi Arabia."
+      ],
+      "quote": {
+        "text": "Inshallah, I can be their ambassador and deliver their message to the world.",
+        "who": "Mohammed Balah, Palestine striker"
+      },
+      "sources": [
+        {
+          "name": "Arab News",
+          "url": "https://www.arabnews.pk/sport/against-the-odds-palestines-balah-escapes-horrors-to-eye-afc-asian-cup-glory-in-saudi-arabia-3005373",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "feature",
+      "live": false
+    },
+    {
+      "id": "maryam-bsharat-retains-world-karate-title",
+      "section": "sport",
+      "date": "2026-10-17",
+      "place": "Bielsko-Biała, Poland",
+      "headline": "Maryam Bsharat retains world junior karate title",
+      "standfirst": "The Palestinian beat Spain's Noa López González 3-1 in the under-66kg kumite final and remains world number one in her category.",
+      "body": [
+        "Palestinian karateka Maryam Bsharat won gold in the junior women's under-66kg kumite at the World Karate Championships for cadets, juniors and under-21s in Bielsko-Biała, Poland, WAFA reported.",
+        "She beat Spain's Noa López González 3-1 in Saturday's final, after defeating a Japanese opponent earlier in the draw, to keep the world title she won at the previous championships.",
+        "Bsharat is ranked first in the World Karate Federation's junior women's under-66kg rankings."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "WAFA (English)",
+          "url": "https://english.wafa.ps/Pages/Details/175993",
+          "date": "2026-10-17"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "harry-kane-wins-ballon-dor-2026",
+      "section": "sport",
+      "date": "2026-10-27",
+      "place": "London, United Kingdom",
+      "headline": "Harry Kane wins the Ballon d'Or ahead of Mbappé and Yamal",
+      "standfirst": "The Bayern Munich striker, 33, is the first English winner in about 25 years after 61 goals in 51 club games; Alexia Putellas won the women's award for a third time.",
+      "body": [
+        "Harry Kane won the 2026 Ballon d'Or at a ceremony in London, finishing ahead of Kylian Mbappé, Lamine Yamal, Rodri and Lionel Messi, The National reported. He is the first English winner in about 25 years.",
+        "Kane, 33, scored 61 goals in 51 games for Bayern Munich last season and 73 in all, including six at the World Cup, where he led England to the semi-finals.",
+        "Alexia Putellas won the women's Ballon d'Or for a third time. Paris Saint-Germain and Barcelona were named clubs of the year, Bukayo Saka received the Socrates Award for humanitarian work and Yamal took the young player award for a third time."
+      ],
+      "quote": {
+        "text": "Work hard when nobody is watching.",
+        "who": "Harry Kane, Bayern Munich and England striker"
+      },
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/sport/football/2026/10/27/ballon-dor-2026-harry-kane-beats-kylian-mbappe-and-lamine-yamal-to-claim-top-prize/",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "mbappe-double-real-madrid-win-clasico",
+      "section": "sport",
+      "date": "2026-10-26",
+      "place": "Barcelona, Spain",
+      "headline": "Mbappé double gives Real Madrid Clásico win at Camp Nou",
+      "standfirst": "Real won 2-1 to cut Barcelona's lead at the top of La Liga to three points, with Mbappé's winner coming in the 87th minute.",
+      "body": [
+        "Kylian Mbappé scored twice as Real Madrid beat Barcelona 2-1 at Camp Nou on Sunday, cutting the leaders' advantage in La Liga to three points.",
+        "Mbappé opened the scoring just before half-time with a deflected shot, Raphinha equalised early in the second half, and the Frenchman won it in the 87th minute from a pass by substitute Eduardo Camavinga.",
+        "Jose Mourinho extended his unbeaten run in Clásicos to six matches. Barcelona coach Hansi Flick said his side lacked freshness after a heavy schedule."
+      ],
+      "quote": {
+        "text": "Real Madrid plays to win championships. We have to keep going.",
+        "who": "Jose Mourinho, Real Madrid coach"
+      },
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/sport/football/2026/10/26/mourinhos-real-madrid-stun-barcelona-to-blow-la-liga-title-race-wide-open/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "antonelli-wins-us-grand-prix",
+      "section": "sport",
+      "date": "2026-10-26",
+      "place": "Austin, Texas, United States",
+      "headline": "Antonelli wins US Grand Prix and closes in on first F1 title",
+      "standfirst": "The 20-year-old Mercedes driver won from pole in Austin for his ninth victory of the season and now leads George Russell by 123 points with five races left.",
+      "body": [
+        "Kimi Antonelli won the United States Grand Prix at the Circuit of the Americas on Sunday, beating Charles Leclerc by 13 seconds, with Max Verstappen third. It was the 20-year-old Mercedes driver's ninth win of the season, from pole position.",
+        "Antonelli now leads teammate George Russell by 123 points with five races remaining. Russell must win the next race in Mexico City to stay in contention, while Verstappen is out of the title fight.",
+        "Mercedes lead Ferrari by 133 points in the constructors' championship."
+      ],
+      "quote": {
+        "text": "I would love to clinch the title in style with a great result.",
+        "who": "Kimi Antonelli, Mercedes driver"
+      },
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/sport/f1/2026/10/26/kimi-antonelli-wins-us-grand-prix-to-move-within-touching-distance-of-f1-title/",
+          "date": "2026-10-26"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "databuddy-raises-yc-seed-round",
+      "section": "tech",
+      "date": "2026-10-20",
+      "place": "United States",
+      "headline": "Palestinian-founded Databuddy raises $500,000 from Y Combinator",
+      "standfirst": "Issa Nassar's AI product-analytics start-up says it has signed more than 3,000 business customers in its first months.",
+      "body": [
+        "Databuddy Analytics, a US-based start-up founded by Palestinian entrepreneur Issa Nassar, has raised $500,000 in a seed round led by Y Combinator, MENA Startup Digest reported, citing Wamda.",
+        "Maza Ventures and the a16z Scout programme also took part, bringing total funding above $560,000. The platform uses AI to flag drops in conversion, customer friction and product problems, and to explain what changed.",
+        "The company says it has more than 3,000 business customers."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "MENA Startup Digest",
+          "url": "https://menastartupdigest.com/palestinan-founded-databuddy-analytics-raises-500k-from-y-combinator/",
+          "date": "2026-10-20"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "tech-for-palestine-hackathon-barcelona",
+      "section": "tech",
+      "date": "2026-10-19",
+      "place": "Barcelona, Spain",
+      "headline": "Tech for Palestine and Thaura plan Barcelona hackathon on 'ethical alternatives'",
+      "standfirst": "The one-day event on 31 October at the Canòdrom, part of Mozilla Festival, asks teams to build tools that help users leave 'complicit technology'.",
+      "body": [
+        "Tech for Palestine and the ethical AI platform Thaura will hold a one-day hackathon at the Canòdrom in Barcelona on 31 October, as part of the Mozilla Festival, MENA Startup Digest reported.",
+        "Up to 100 engineers, designers and strategists will be asked to build working prototypes or campaigns that make it easier for people to move away from technology the organisers describe as complicit, from apps and browser plugins to migration tools.",
+        "Teams will present five-minute demos and pitches. The strongest projects may be taken into the Tech for Palestine incubator, which says it has supported more than 90 projects. Entry is free."
+      ],
+      "quote": null,
+      "sources": [
+        {
+          "name": "MENA Startup Digest",
+          "url": "https://menastartupdigest.com/tech-for-palestine-and-thaura-set-barcelona-hackathon-for-october-31/",
+          "date": "2026-10-19"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "openai-model-finds-critical-php-flaw",
+      "section": "tech",
+      "date": "2026-10-21",
+      "place": "Washington, United States",
+      "headline": "AI-found PHP flaw forces governments to take websites offline",
+      "standfirst": "OpenAI says one of its models found the 'php2shell' bugs, which allow remote code execution on any PHP server; the Netherlands, France and others pulled services to patch.",
+      "body": [
+        "The PHP Foundation disclosed two critical vulnerabilities in the PHP scripting language, which runs a large share of the world's websites, and released a security update, The National reported. US cyber agency CISA said the flaws, dubbed php2shell, allow unauthenticated remote code execution on PHP installations that serve web requests.",
+        "The Netherlands, Finland, France and Australia temporarily took some government services offline to apply the patch, and the NSA advised organisations that could not update quickly to disconnect affected systems.",
+        "OpenAI said one of its models found the vulnerability, calling it one of the most impactful in recent memory. Researchers advised treating unpatched public PHP systems as exposed."
+      ],
+      "quote": {
+        "text": "This is about as broad as a critical vulnerability gets.",
+        "who": "Moshe Siman Tov Bustan, lead researcher, Ox Security"
+      },
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/future/technology/2026/10/21/php-security-issues-exploit/",
+          "date": "2026-10-21"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    },
+    {
+      "id": "apple-replaces-cracked-iphone-duo-screens",
+      "section": "tech",
+      "date": "2026-10-27",
+      "place": "Cupertino, United States",
+      "headline": "Apple to replace iPhone Duo units with cracked inner screens",
+      "standfirst": "Buyers of Apple's first foldable reported cracks and dead pixels near the hinge within days; the company has not explained the fault.",
+      "body": [
+        "Apple said on Monday night that it would replace iPhone Duo handsets whose inner screens have cracked or developed display faults, The National reported. The company said the problem affects a small number of units but did not explain the cause.",
+        "Photos shared online show damage concentrated around the hinge, including vertical cracks, bright lines and dead pixels, with some buyers saying faults appeared within hours.",
+        "The Duo, Apple's first foldable phone, began shipping last week after initial orders sold out. Durability is a key test as Apple enters a market led by Samsung and Google."
+      ],
+      "quote": {
+        "text": "We are aware of an issue impacting the inner display on a small number of iPhone Duo units,",
+        "who": "Apple, statement to The National"
+      },
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/business/2026/10/27/apple-to-replace-iphone-duo-handsets-with-screen-issues/",
+          "date": "2026-10-27"
+        }
+      ],
+      "kind": "brief",
+      "live": false
+    },
+    {
+      "id": "oversight-board-faults-meta-account-removals",
+      "section": "tech",
+      "date": "2026-10-20",
+      "place": "Menlo Park, United States",
+      "headline": "Oversight Board faults Meta over removal of protest and election accounts",
+      "standfirst": "The board said 'No Kings' activist accounts and Brazilian election pages were taken down by error and should have been protected by Meta's cross-check system.",
+      "body": [
+        "Meta's Oversight Board said moderation failures led to the removal of accounts linked to the US \"No Kings\" protest movement and to Brazil's election, and that the activist accounts should have been covered by Meta's cross-check programme, The National reported.",
+        "The removals came the weekend before nationwide No Kings protests. Meta blamed technical glitches; spokesman Andy Stone said the automated action was an error and apologised. Brazil's top electoral court doubled a daily fine against the company over how it displays political content.",
+        "Democratic Senator Chris Murphy criticised the removals and suggested Big Tech would face more scrutiny if Democrats win control of Congress."
+      ],
+      "quote": {
+        "text": "It remains unclear why Meta's election integrity efforts did not lead to a much quicker resolution,",
+        "who": "Meta Oversight Board"
+      },
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/future/technology/2026/10/20/no-kings-protests-instagram-meta/",
+          "date": "2026-10-20"
+        }
+      ],
+      "kind": "news",
+      "live": false
+    }
+  ]
+}
