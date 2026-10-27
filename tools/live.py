@@ -12,7 +12,7 @@ from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urldefrag, urljoin
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE = 'https://taktek-dev.github.io/shasha-post-prototype/'
+BASE = 'https://imsemoo.github.io/shasha-post-prototype/'
 pages = sorted(os.path.relpath(p, ROOT).replace('\\', '/') for p in glob.glob(os.path.join(ROOT, '**', '*.html'), recursive=True)
                if not os.path.relpath(p, ROOT).startswith(('tools', 'research', 'node_modules')))
 urls = {BASE + p for p in pages}
