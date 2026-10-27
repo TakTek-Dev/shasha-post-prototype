@@ -1,0 +1,163 @@
+{
+ "topics": [
+  {
+   "slug": "election-2026",
+   "title": "Israel’s 2026 election",
+   "short": "The election",
+   "standfirst": "The vote for the 26th Knesset, read from Palestine: the closures that came with it, the campaign against Arab ballots, and what each outcome would mean.",
+   "photo": "knesset-front",
+   "ids": [
+    "israel-votes-26th-knesset-election",
+    "likud-prepares-fraud-claims-arab-polls",
+    "ramallah-entrances-sealed-new-checkpoints",
+    "netanyahu-sought-iran-strike-before-vote",
+    "oversight-board-faults-meta-account-removals"
+   ]
+  },
+  {
+   "slug": "olive-harvest",
+   "title": "The olive harvest",
+   "short": "Olive harvest",
+   "standfirst": "October is picking season across the West Bank, and this year it opened, in the UN’s word, ominously: attacks on pickers, trees and the roads to the groves.",
+   "photo": "olive-harvest-jenin",
+   "ids": [
+    "un-ominous-start-olive-harvest",
+    "beit-kahil-harvesters-attacked-482-incidents",
+    "umm-safa-cars-torched-slogans"
+   ]
+  },
+  {
+   "slug": "gaza-after-the-ceasefire",
+   "title": "Gaza after the ceasefire",
+   "short": "Gaza",
+   "standfirst": "The shooting has slowed but not stopped. Food aid is being cut, power is unaffordable, tents burn, and a UN inquiry says the genocide has not ended.",
+   "photo": "extra_gaza_seaport",
+   "ids": [
+    "girl-dies-of-wounds-al-mawasi",
+    "shujaiyya-tent-camp-burned-800-displaced",
+    "gaza-families-cannot-afford-generator-power",
+    "un-inquiry-says-gaza-genocide-continues",
+    "albania-joins-gaza-stabilisation-force",
+    "wfp-cuts-gaza-food-aid",
+    "palestinians-drown-off-lesbos-and-samos"
+   ]
+  },
+  {
+   "slug": "raids-and-settlers",
+   "title": "Raids and settlers",
+   "short": "Raids and settlers",
+   "standfirst": "The West Bank week: the Hebron operation and the families it moved, homes taken over in Far’un, arrests, shootings at checkpoints and settler attacks overnight.",
+   "photo": "hebron-old-city-roofs",
+   "ids": [
+    "hebron-displaced-pass-3000-turk-warns",
+    "hebron-operation-begins-after-checkpoint-attack",
+    "farun-families-evicted-homes-outposts",
+    "umm-safa-cars-torched-slogans",
+    "youth-shot-near-huwara-checkpoint",
+    "seventy-detained-west-bank-since-friday",
+    "ben-gvir-al-aqsa-visit-condemned"
+   ]
+  },
+  {
+   "slug": "accountability",
+   "title": "Courts, the UN and Europe",
+   "short": "Accountability",
+   "standfirst": "Where the war is argued over: the UN commission of inquiry, the ICC under US sanctions, the European Parliament, and a rapporteur’s report on the press.",
+   "photo": "un-human-rights-council-room",
+   "ids": [
+    "un-inquiry-says-gaza-genocide-continues",
+    "sixty-meps-urge-eu-sanctions-israel",
+    "nyt-rejects-albanese-mediacide-report",
+    "eu-weighs-blocking-statute-for-icc"
+   ]
+  },
+  {
+   "slug": "asian-cup-2027",
+   "title": "Palestine at the Asian Cup",
+   "short": "Asian Cup",
+   "standfirst": "The national team opens the 2027 Asian Cup against the hosts in Riyadh, with a striker who grew up in Gaza back in the squad.",
+   "photo": "king-fahd-stadium-riyadh",
+   "ids": [
+    "palestine-to-open-asian-cup-saudi",
+    "mohammed-balah-gaza-striker-asian-cup"
+   ]
+  }
+ ],
+ "places": [
+  {
+   "slug": "ramallah",
+   "title": "Ramallah and al-Bireh",
+   "photo": "extra_ramallah_night",
+   "standfirst": "The seat of the Palestinian Authority and the West Bank’s busiest city, sealed on election morning.",
+   "ids": [
+    "ramallah-entrances-sealed-new-checkpoints",
+    "umm-safa-cars-torched-slogans",
+    "birzeit-conference-delegation-denied-entry",
+    "plo-rejects-unrwa-staff-layoffs",
+    "palestinian-trade-deficit-widens-17-percent"
+   ]
+  },
+  {
+   "slug": "hebron",
+   "title": "Hebron",
+   "photo": "hebron-old-city-souq",
+   "standfirst": "The southern West Bank’s largest city, under a military operation since 24 October.",
+   "ids": [
+    "hebron-displaced-pass-3000-turk-warns",
+    "hebron-operation-begins-after-checkpoint-attack",
+    "beit-kahil-harvesters-attacked-482-incidents"
+   ]
+  },
+  {
+   "slug": "jerusalem",
+   "title": "Jerusalem",
+   "photo": "extra_jerusalem_damascus_gate",
+   "standfirst": "The Old City, al-Aqsa and the city’s Palestinian neighbourhoods.",
+   "ids": [
+    "ben-gvir-al-aqsa-visit-condemned",
+    "jerusalem-patriarchate-condemns-karak-church-attack"
+   ]
+  },
+  {
+   "slug": "nablus",
+   "title": "Nablus",
+   "photo": "extra_nablus_street",
+   "standfirst": "The northern city and the villages and checkpoints around it.",
+   "ids": [
+    "youth-shot-near-huwara-checkpoint"
+   ]
+  },
+  {
+   "slug": "tulkarm",
+   "title": "Tulkarm",
+   "photo": "tulkarm-aerial",
+   "standfirst": "The city on the West Bank’s western edge, its camps and the villages to the south.",
+   "ids": [
+    "farun-families-evicted-homes-outposts"
+   ]
+  },
+  {
+   "slug": "gaza",
+   "title": "The Gaza Strip",
+   "photo": "extra_gaza_seaport",
+   "standfirst": "Gaza City, the central camps and Khan Younis, a year into the ceasefire.",
+   "ids": [
+    "girl-dies-of-wounds-al-mawasi",
+    "shujaiyya-tent-camp-burned-800-displaced",
+    "gaza-families-cannot-afford-generator-power",
+    "wfp-cuts-gaza-food-aid"
+   ]
+  },
+  {
+   "slug": "west-bank",
+   "title": "Across the West Bank",
+   "photo": "olive-harvest-jenin",
+   "standfirst": "Stories that cover the whole territory rather than one town.",
+   "ids": [
+    "un-ominous-start-olive-harvest",
+    "seventy-detained-west-bank-since-friday",
+    "ebrd-eu-green-finance-facility"
+   ]
+  }
+ ]
+}
