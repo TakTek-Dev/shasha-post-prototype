@@ -91,7 +91,8 @@ def culture():
         return ''
     return f'''<section class="screenband" aria-labelledby="h-cul"><div class="wrap">
 {head_of('culture').replace('<h2>', '<h2 id="h-cul">', 1)}
-<div class="reel">{''.join(card(s, sizes='(min-width:1100px) 23vw, 78vw', ratio='r45') for s in cs)}</div>
+<div class="reel" id="reel-cul" tabindex="0" aria-label="Culture stories, scroll sideways">{''.join(card(s, sizes='(min-width:1100px) 23vw, 78vw', ratio='r45') for s in cs)}</div>
+<div class="reel-nav" aria-hidden="false"><button class="btn icon" type="button" data-reel="reel-cul" data-dir="-1" aria-label="Previous culture stories">{sh.icon("i-left")}</button><button class="btn icon" type="button" data-reel="reel-cul" data-dir="1" aria-label="Next culture stories">{sh.icon("i-right")}</button></div>
 </div></section>'''
 
 

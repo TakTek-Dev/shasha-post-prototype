@@ -179,7 +179,7 @@ def section(slug):
     grid = rest[:3]
     body = f'''<div class="wrap">
 <header class="pagehead">{crumbs((title, None))}<h1>{esc(title)}</h1><p>{esc(sf)}</p>{chips(slug)}</header>
-<div class="pal">{card(top[0], "big", sizes="(min-width:900px) 56vw, 100vw")}<div class="side">{"".join(card(s, "row") for s in grid)}</div></div>
+<h2 class="vh">Top stories in {esc(title)}</h2><div class="pal">{card(top[0], "big", sizes="(min-width:900px) 56vw, 100vw")}<div class="side">{"".join(card(s, "row") for s in grid)}</div></div>
 <div style="margin-top:clamp(40px,5vw,64px)">{by_day(rest[3:]) if rest[3:] else ""}</div>
 </div>'''
     sh.write(f'{slug}.html', sh.page(title, sf, sh.following() + body, current=slug))
@@ -318,7 +318,7 @@ def thread(ids):
                 f'<span>{esc(s.get("time", ""))}</span></div><article class="card th-c">'
                 f'<p class="meta">{kick(s)}{sh.place_link(s)}</p><h3><a href="{link(s["id"])}">{esc(s["headline"])}</a></h3>'
                 f'<p class="sf">{esc(s["standfirst"])}</p></article>{ph}</li>')
-    return f'<ol class="thread">{lis}</ol>'
+    return f'<h2 class="vh">Every story, newest first</h2><ol class="thread">{lis}</ol>'
 
 
 def topic(t):
@@ -345,7 +345,7 @@ def topics():
                   f'<p class="latest">Latest: {esc(latest["headline"])}</p></article>')
     body = f'''<div class="wrap">
 <header class="pagehead">{crumbs(("Topics", None))}<h1>Topics</h1><p>The stories we are following across sections. Each topic gathers every post on it in one thread, newest first.</p></header>
-<div class="grid g3">{cards}</div></div>'''
+<h2 class="vh">Topics</h2><div class="grid g3">{cards}</div></div>'''
     sh.write('topics.html', sh.page('Topics', 'The stories Shasha Post is following.', body, current='topics'))
 
 

@@ -103,6 +103,21 @@
     read();
   }
 
+  // ---------------------------------------------------------------- the culture strip: arrows step one card; they dim at either end
+  $$('[data-reel]').forEach(b => {
+    const reel = document.getElementById(b.dataset.reel);
+    if (!reel) return;
+    const step = () => (reel.firstElementChild ? reel.firstElementChild.getBoundingClientRect().width + 20 : reel.clientWidth * 0.8);
+    b.addEventListener('click', () => reel.scrollBy({ left: step() * +b.dataset.dir, behavior: reduce ? 'auto' : 'smooth' }));
+    const edge = () => {
+      const max = reel.scrollWidth - reel.clientWidth - 2;
+      b.disabled = +b.dataset.dir < 0 ? reel.scrollLeft <= 2 : reel.scrollLeft >= max;
+    };
+    reel.addEventListener('scroll', edge, { passive: true });
+    addEventListener('resize', edge, { passive: true });
+    edge();
+  });
+
   // ---------------------------------------------------------------- copy link
   $$('[data-copy]').forEach(b => b.addEventListener('click', async () => {
     try { await navigator.clipboard.writeText(location.href); b.lastChild.textContent = ' Link copied'; }

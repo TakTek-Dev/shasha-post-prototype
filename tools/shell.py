@@ -9,9 +9,9 @@ import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V = '9'                                       # bump on any asset change (Chrome caches hard)
+V = '10'                                       # bump on any asset change (Chrome caches hard)
 SITE = 'Shasha Post'
-BASE_URL = 'https://taktek-dev.github.io/shasha-post-prototype/'
+BASE_URL = 'https://imsemoo.github.io/shasha-post-prototype/'
 E = json.load(open(os.path.join(ROOT, 'tools', 'edition.json'), encoding='utf-8'))
 MARKS = json.load(open(os.path.join(ROOT, 'tools', 'out', 'marks.json'), encoding='utf-8'))
 PH = json.load(open(os.path.join(ROOT, 'tools', 'photos.json'), encoding='utf-8'))
