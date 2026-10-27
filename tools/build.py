@@ -112,7 +112,7 @@ def split(a, b, skip=()):
 def main():
     lead = E['lead']
     skip = {lead}
-    body = front() + liveband() + palestine(skip) + split('region', 'world', skip={E.get('live', {}).get('story')}) + culture() + split('sport', 'tech')
+    body = sh.following() + front() + liveband() + palestine(skip) + split('region', 'world', skip={E.get('live', {}).get('story')}) + culture() + split('sport', 'tech')
     body += f'<section class="sec" style="border:0"><div class="wrap">{sh.daily()}</div></section>'
     sh.write('home.html', sh.page(sh.SITE, 'News from Palestine, in English: the West Bank, Gaza and Jerusalem, the region, culture, sport and tech, each story with its source.',
                                   body, current='home', with_loader=True))

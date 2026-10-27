@@ -120,6 +120,25 @@
     f.querySelector('button').disabled = true;
   }));
 
+  // ---------------------------------------------------------------- contact (prototype): check the required fields, say so in words
+  $$('form[data-proto-form]').forEach(f => f.addEventListener('submit', e => {
+    e.preventDefault();
+    const msg = f.querySelector('.msg');
+    const bad = [...f.querySelectorAll('input,textarea,select')].filter(el => {
+      const ok = el.checkValidity();
+      el.setAttribute('aria-invalid', String(!ok));
+      return !ok;
+    });
+    if (bad.length) {
+      const name = (bad[0].labels && bad[0].labels[0] ? bad[0].labels[0].firstChild.textContent.trim() : 'that field');
+      msg.textContent = 'Check ' + name.toLowerCase() + ' and try again.';
+      bad[0].focus();
+      return;
+    }
+    msg.innerHTML = '<span class="dots"><i></i><i></i><i></i></span> Thank you. This is a prototype, so nothing was sent.';
+    f.querySelector('button[type=submit]').disabled = true;
+  }));
+
   // ---------------------------------------------------------------- search (the whole edition is small enough to ship)
   const sb = $('#q');
   if (sb) {
@@ -153,6 +172,7 @@
       run();
     });
     sb.addEventListener('input', run);
+    $$('.sugg button').forEach(b => b.addEventListener('click', () => { sb.value = b.textContent; run(); sb.focus(); }));
     $('.searchbox')?.addEventListener('submit', e => { e.preventDefault(); run(); });
   }
 

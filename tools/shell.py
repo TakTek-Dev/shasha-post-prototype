@@ -9,7 +9,7 @@ import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V = '7'                                       # bump on any asset change (Chrome caches hard)
+V = '9'                                       # bump on any asset change (Chrome caches hard)
 SITE = 'Shasha Post'
 BASE_URL = 'https://taktek-dev.github.io/shasha-post-prototype/'
 E = json.load(open(os.path.join(ROOT, 'tools', 'edition.json'), encoding='utf-8'))
@@ -23,6 +23,19 @@ TODAY = D(E['date'])
 NOW = E['now']                                 # the edition's "now", ISO with offset
 S = E['stories']
 BY = {s['id']: s for s in S}
+MAP = json.load(open(os.path.join(ROOT, 'tools', 'map.json'), encoding='utf-8'))
+TOPICS = MAP['topics']
+PLACES = MAP['places']
+for _g in TOPICS + PLACES:
+    _g['photo'] = _g['photo'].lstrip('_')
+
+
+def topics_of(sid):
+    return [t for t in TOPICS if sid in t['ids']]
+
+
+def place_of(sid):
+    return next((p for p in PLACES if sid in p['ids']), None)
 
 
 class Ctx:
@@ -74,6 +87,9 @@ SPRITE = '''<svg width="0" height="0" style="position:absolute" aria-hidden="tru
 <symbol id="i-menu" viewBox="0 0 16 16"><path d="M2.5 5h11M2.5 11h11" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
 <symbol id="i-moon" viewBox="0 0 16 16"><path d="M13.2 10.1A5.6 5.6 0 0 1 5.9 2.8a5.6 5.6 0 1 0 7.3 7.3z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
 <symbol id="i-sun" viewBox="0 0 16 16"><circle cx="8" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 1.5v1.6M8 12.9v1.6M1.5 8h1.6M12.9 8h1.6M3.4 3.4l1.1 1.1M11.5 11.5l1.1 1.1M3.4 12.6l1.1-1.1M11.5 4.5l1.1-1.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+<symbol id="i-mail" viewBox="0 0 16 16"><rect x="2" y="3.5" width="12" height="9" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m2.8 4.6 5.2 4 5.2-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+<symbol id="i-left" viewBox="0 0 16 16"><path d="M13 8H3M7.5 3.5 3 8l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="i-pin" viewBox="0 0 16 16"><path d="M8 14.5s4.8-4.3 4.8-8.1a4.8 4.8 0 1 0-9.6 0c0 3.8 4.8 8.1 4.8 8.1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="8" cy="6.4" r="1.7" fill="currentColor"/></symbol>
 <symbol id="i-link" viewBox="0 0 16 16"><path d="M6.8 9.2a2.8 2.8 0 0 0 4 0l2-2a2.8 2.8 0 0 0-4-4l-.7.7M9.2 6.8a2.8 2.8 0 0 0-4 0l-2 2a2.8 2.8 0 0 0 4 4l.7-.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
 </defs></svg>'''
 
@@ -148,6 +164,21 @@ def kick(s):
     return f'<a class="kick" href="{C.R}{sl}.html">{esc(label)}</a>'
 
 
+def place_link(s):
+    p = place_of(s['id'])
+    if p:
+        return f'<a class="pl" href="{C.R}place/{p["slug"]}.html">{esc(s["place"])}</a>'
+    return f'<span>{esc(s["place"])}</span>'
+
+
+def following(current=''):
+    """The rail of stories being followed: topics across sections."""
+    a = ''.join(f'<a href="{C.R}topic/{t["slug"]}.html"{" aria-current=\"page\"" if t["slug"] == current else ""}>{esc(t["short"])}<span>{len(t["ids"])}</span></a>'
+                for t in TOPICS)
+    return (f'<nav class="follow" aria-label="Stories we are following"><div class="wrap"><span class="lbl">{dots(True)}Following</span>'
+            f'<div class="rail">{a}</div><a class="all" href="{C.R}topics.html">All topics</a></div></nav>')
+
+
 def card(s, kind='', img=True, sf=True, sizes='(min-width:1000px) 30vw, 100vw', ratio='r1610'):
     """One story. kind: '' (photo on top), 'big', 'row' (thumbnail at the side)."""
     ph = ''
@@ -157,7 +188,7 @@ def card(s, kind='', img=True, sf=True, sizes='(min-width:1000px) 30vw, 100vw', 
         else:
             ph = photo(s.get('photo'), sizes=sizes, cls=f'ph {ratio}') or plate(f'ph {ratio}')
     live = f'<span class="new" style="display:inline-flex;gap:7px;align-items:center;font-weight:700">{dots(True)}Live</span>' if s.get('live') else ''
-    meta = f'<p class="meta">{kick(s)}{live}<span>{when(s)}</span><span>{esc(s["place"])}</span></p>'
+    meta = f'<p class="meta">{kick(s)}{live}<span>{when(s)}</span>{place_link(s)}</p>'
     st = f'<p class="sf">{esc(s["standfirst"])}</p>' if sf else ''
     cls = 'card' + (f' {kind}' if kind else '') + ' rise'
     if kind == 'row':
@@ -216,7 +247,7 @@ def mast(current='', reading=False):
     lis = ''.join(f'<li><a href="{C.R}{s}.html"{" aria-current=\"page\"" if s == current else ""}>{esc(l)}</a></li>'
                   for s, l, *_ in SECTIONS)
     lis += f'<li><a href="{C.R}latest.html"{" aria-current=\"page\"" if current == "latest" else ""}>Latest</a></li>'
-    lis += f'<li class="m-only"><a href="{C.R}newsletter.html">The Daily Post</a></li><li class="m-only"><a href="{C.R}live.html">Live</a></li>'
+    lis += f'<li class="m-only"><a href="{C.R}topics.html">Topics</a></li><li class="m-only"><a href="{C.R}places.html">Places</a></li><li class="m-only"><a href="{C.R}today.html">Today</a></li><li class="m-only"><a href="{C.R}live.html">Live</a></li><li class="m-only"><a href="{C.R}newsletter.html">The Daily Post</a></li>'
     rd = f'<span class="reading">{dots(read=True)}<span>Reading</span></span>' if reading else ''
     return f'''<header class="mast">
 <div class="wrap">
@@ -252,8 +283,8 @@ def foot():
 <div><a class="brand" href="{C.R}home.html" aria-label="{SITE}, front page">{wordmark()}</a>
 <p class="tag">The English edition of <span lang="ar">شاشة</span>, Shasha: news from Palestine for readers everywhere, each story with its source.</p></div>
 <div><p class="lbl">Sections</p><ul>{secs}</ul></div>
-<div><p class="lbl">Shasha Post</p><ul><li><a href="{C.R}latest.html">Latest, by day</a></li><li><a href="{C.R}live.html">Live</a></li><li><a href="{C.R}search.html">Search</a></li><li><a href="{C.R}newsletter.html">The Daily Post</a></li></ul></div>
-<div><p class="lbl">About</p><ul><li><a href="{C.R}about.html">About Shasha Post</a></li><li><a href="{C.R}about.html#standards">Sources and corrections</a></li><li><a href="{C.R}credits.html">Photo credits</a></li><li><a href="{C.R}index.html">Identity</a></li></ul></div>
+<div><p class="lbl">Shasha Post</p><ul><li><a href="{C.R}today.html">Today</a></li><li><a href="{C.R}latest.html">Latest, by day</a></li><li><a href="{C.R}live.html">Live</a></li><li><a href="{C.R}topics.html">Topics</a></li><li><a href="{C.R}places.html">Places</a></li><li><a href="{C.R}search.html">Search</a></li><li><a href="{C.R}newsletter.html">The Daily Post</a></li></ul></div>
+<div><p class="lbl">About</p><ul><li><a href="{C.R}about.html">About Shasha Post</a></li><li><a href="{C.R}standards.html">Standards and corrections</a></li><li><a href="{C.R}contact.html">Contact and tips</a></li><li><a href="{C.R}privacy.html">Privacy</a></li><li><a href="{C.R}credits.html">Photo credits</a></li><li><a href="{C.R}sitemap.html">Site map</a></li><li><a href="{C.R}index.html">Identity</a></li></ul></div>
 </div>
 <div class="bottom"><div class="wrap"><span>Design prototype by TakTek for Shasha. Stories are summaries of the linked reporting; no newsroom, readership or partners are implied.</span><span>Type: Familjen Grotesk and Faustina (OFL). Photos: Wikimedia Commons, <a href="{C.R}credits.html">credited</a>.</span></div></div>
 </footer>'''
