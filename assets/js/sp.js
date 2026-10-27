@@ -156,6 +156,32 @@
     $('.searchbox')?.addEventListener('submit', e => { e.preventDefault(); run(); });
   }
 
+  // ---------------------------------------------------------------- page to page: the screen closes to a line, the next one opens from it
+  const pt = $('.pt');
+  if (pt && !reduce) {
+    document.addEventListener('click', e => {
+      const a = e.target.closest('a[href]');
+      if (!a || e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      if ((a.target && a.target !== '_self') || a.hasAttribute('download')) return;
+      const u = new URL(a.href, location.href);
+      if (u.origin !== location.origin || !/(\.html|\/)$/.test(u.pathname)) return;   // other sites, files
+      if (u.pathname === location.pathname && u.search === location.search) return;      // same page, an anchor
+      e.preventDefault();
+      store.sset('sp-nav', '1');
+      doc.classList.add('leaving');
+      setTimeout(() => { location.href = u.href; }, 280);
+    });
+    // back and forward restore the page as it was left: open the screen again
+    addEventListener('pageshow', e => { if (e.persisted) doc.classList.remove('leaving', 'arriving', 'open'); });
+    if (doc.classList.contains('arriving')) {
+      const open = () => {
+        doc.classList.add('open');
+        setTimeout(() => doc.classList.remove('arriving', 'open'), 700);
+      };
+      Promise.race([document.fonts.ready, new Promise(r => setTimeout(r, 450))]).then(() => requestAnimationFrame(open));
+    }
+  }
+
   // ---------------------------------------------------------------- the loader: the screen switches on, the first post arrives
   const ldr = $('.ldr');
   const force = new URLSearchParams(location.search).has('loader');
