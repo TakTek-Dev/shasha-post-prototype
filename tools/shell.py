@@ -9,7 +9,7 @@ import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V = '6'                                       # bump on any asset change (Chrome caches hard)
+V = '7'                                       # bump on any asset change (Chrome caches hard)
 SITE = 'Shasha Post'
 BASE_URL = 'https://taktek-dev.github.io/shasha-post-prototype/'
 E = json.load(open(os.path.join(ROOT, 'tools', 'edition.json'), encoding='utf-8'))
@@ -166,17 +166,18 @@ def card(s, kind='', img=True, sf=True, sizes='(min-width:1000px) 30vw, 100vw', 
 
 
 # ---------------------------------------------------------------- the shell
-def head(title, desc, og=None, cls=''):
+def head(title, desc, og=None, cls='', intro=False):
     t = esc(title if title == SITE else f'{title} · {SITE}')
     return f'''<!doctype html>
-<html lang="en" data-now="{NOW}" data-root="{C.R}">
+<html lang="en" data-now="{NOW}" data-root="{C.R}"{' data-intro' if intro else ''}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{t}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="theme-color" content="#0B0E1C">
-<script>try{{var t=localStorage.getItem('sp-theme');if(t)document.documentElement.dataset.theme=t}}catch(e){{}}document.documentElement.classList.add('js')</script>
+<script>(function(d){{try{{var t=localStorage.getItem('sp-theme');if(t)d.dataset.theme=t}}catch(e){{}}d.classList.add('js');
+try{{var s=sessionStorage;if(s.getItem('sp-nav')&&!matchMedia('(prefers-reduced-motion: reduce)').matches&&!(d.hasAttribute('data-intro')&&!s.getItem('sp-on')))d.classList.add('arriving');s.removeItem('sp-nav')}}catch(e){{}}}})(document.documentElement)</script>
 <link rel="icon" href="{C.R}favicon.svg?v={V}" type="image/svg+xml">
 <link rel="preload" href="{C.R}assets/fonts/familjen.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{C.R}assets/fonts/faustina.woff2" as="font" type="font/woff2" crossorigin>
@@ -190,6 +191,7 @@ def head(title, desc, og=None, cls=''):
 <meta name="robots" content="noindex">
 </head>
 <body class="{cls}">
+<div class="pt" aria-hidden="true"><div class="pt-line"></div>{dots(True)}</div>
 <a class="skip" href="#main">Skip to the news</a>
 {SPRITE}'''
 
@@ -258,7 +260,7 @@ def foot():
 
 
 def page(title, desc, body, current='', with_loader=False, og=None, reading=False):
-    return (head(title, desc, og=og, cls='story-page' if reading else '') + (loader() if with_loader else '') +
+    return (head(title, desc, og=og, cls='story-page' if reading else '', intro=with_loader) + (loader() if with_loader else '') +
             ('<div class="readbar" aria-hidden="true"></div>' if reading else '') + status() + mast(current, reading) +
             f'<main id="main">{body}</main>' + foot() +
             f'<script src="{C.R}assets/js/sp.js?v={V}" defer></script>\n</body>\n</html>\n')

@@ -40,8 +40,6 @@
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:84px}
-@view-transition{navigation:auto}
-::view-transition-old(root),::view-transition-new(root){animation-duration:.28s;animation-timing-function:var(--ease)}
 body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--serif);
   font-optical-sizing:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;overflow-x:clip}
 img,svg{display:block;max-width:100%}
@@ -446,3 +444,18 @@ html:not(.js) .ldr,.ldr.gone{display:none}
 .b-list a{color:var(--cobalt-ink);text-decoration:underline;text-underline-offset:3px}
 [lang="ar"]{font-family:"SP Arabic",var(--sans);font-style:normal;letter-spacing:0;font-weight:600}
 @media (max-width:640px){.pal-more{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 14px}.pal-more .card h3{font-size:16px;line-height:1.2}.pal-more .meta span:last-child{display:none}}
+
+/* ---------------------------------------------------------------- page to page: the screen closes to a line and opens again */
+.pt{position:fixed;inset:0;z-index:190;display:grid;place-items:center;background:var(--screen);pointer-events:none;visibility:hidden;clip-path:inset(50% 0 50% 0)}
+.pt .dots{transform:scale(2.4);opacity:0}
+.pt-line{position:absolute;left:0;right:0;top:50%;height:2px;margin-top:-1px;background:#DDE3FF;box-shadow:0 0 18px 2px rgba(150,165,255,.7);opacity:0}
+html.leaving .pt{visibility:visible;clip-path:inset(0);transition:clip-path .26s cubic-bezier(.7,0,.84,0)}
+html.leaving .pt .dots{opacity:1;transition:opacity .2s .12s}
+html.arriving .pt{visibility:visible;clip-path:inset(0);animation:pt-safe 0s 2.5s forwards}
+html.arriving .pt .dots{opacity:1}
+html.arriving.open .pt{clip-path:inset(50% 0 50% 0);transition:clip-path .42s cubic-bezier(.2,.7,.2,1) .06s}
+html.arriving.open .pt .dots{opacity:0;transition:opacity .12s}
+html.arriving.open .pt-line{animation:pt-line .6s ease-out}
+@keyframes pt-line{0%{opacity:0}25%{opacity:1}100%{opacity:0}}
+@keyframes pt-safe{to{visibility:hidden}}   /* if the script never runs, the screen still opens */
+@media (prefers-reduced-motion:reduce){.pt{display:none}}
